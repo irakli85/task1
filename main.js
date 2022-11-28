@@ -20,13 +20,15 @@ function Car(make, model, year) {
     
     
 
-    let personOne = new Person('tom', 24, 'Tesla Model S released in 2015');
-
-    personOne.getPersonInfo();
+    
 
     let carOne = new Car('Tesla ',  'Model 5', ' released in 2015');
   
     carOne.getCarInfo();
+
+    let personOne = new Person(' tom ', 24, ' Tesla Model S released in 2015');
+
+    personOne.getPersonInfo();
 
    
    
